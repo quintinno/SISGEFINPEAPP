@@ -1,0 +1,25 @@
+# [SISGEFINPE] Sistema de Gestão Financeira Pessoal (SISGEFINPEAPP)
+
+	+ Comandos
+
+		> npm install -g ionic@5.4.15
+		> ionic start SISGEFINPEAPP tabs
+		> cd SISGEFINPEAPP
+		> ionic serve --port 8080
+		> cd /opt/google/chrome/ && ./chrome --app=http://localhost:8080/tabs/tab1
+
+		> ionic g module page/monitoramento --routing
+		> ionic g component page/monitoramento
+
+		> ionic g module page/configuracao
+		> ionic g component page/configuracao
+
+		> ionic g module page/atividade
+		> ionic g component page/atividade
+
+		> ionic g module page/despesa
+		> ionic g component page/despesa
+
+		> ionic g module authorization/login
+		> ionic g module authorization/recuperar-senha
+		> ionic g module authorization/cadastrar
